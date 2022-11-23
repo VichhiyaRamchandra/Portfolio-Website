@@ -1,0 +1,87 @@
+/* Projects Page */
+index-body{
+
+     background-color: white;
+     width:100vw;
+     height: 100vh;
+    
+    }
+    
+    /* navbar ended */
+   /* Content Start */
+
+height: 80%;
+width: 100%;
+background: rgba(0, 0, 0, 0.338) url("https://i.pinimg.com/736x/d1/b0/83/d1b083ac9d9344250908137e08d6 eb20.jpg");
+background-repeat: no-repeat;
+ background-size: cover; color:white;
+display: grid;
+
+place-items: center;
+
+backdrop-filter: blur(0.3rem);
+ background-blend-mode: overlay;
+}
+.header-div > h1{ font-size: 3rem;
+}
+.project{
+     height: 50vh; 
+     width: 100vw; 
+     display: flex;
+    flex-direction: column;
+justify-content: space-between;
+
+}
+
+.project > .project-title{ 
+height: 10vh;
+display: flex;
+ 
+
+background-color:white;
+ color:black;
+align-items: center;
+padding-inline: 1rem;
+width: 100%;
+}
+
+.project-title > h1{ 
+    font-size: 2rem;
+}
+
+.project > .project-code{ 
+ height: 40vh;
+width: 100%;
+
+background-color:white;
+ color: black;
+display: grid;
+
+place-items: center;
+
+grid-template-columns: repeat(3, 1fr);
+
+}
+
+.project-code > .code-section{
+ height: 40vh;
+width: 100%; 
+display: flex;
+flex-direction: column;
+
+}
+
+.line-1{
+
+height: 2px; width: 4rem;
+ 
+background-color:darkorange;
+ display: block;
+margin-left: 4%;
+
+}
+
+.code-section > pre{ height: 100%; 
+     overflow-y: auto;
+     overflow-x: hidden;
+     width: 100%;

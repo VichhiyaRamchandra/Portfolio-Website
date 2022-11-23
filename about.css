@@ -1,0 +1,417 @@
+
+.index-intinship
+{
+    
+    background-size: cover;
+    background: url("./rn.jpg")no-repeat center center/cover;   
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 20vh;
+    
+    
+}
+.menu 
+{
+    color: black;
+    font-size: 2pxs;
+    font-family: 'Times New Roman', Times, serif;
+    display:flex;
+    flex-direction:row ;
+    padding-left: 700px;
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    text-decoration: none;
+    color:black;
+    padding: 5px 10px;
+    font-family: inherit;
+    font-size: 30px;
+ 
+}
+.menu li a:hover
+{
+    background: palegreen;
+    color: rosybrown;
+}
+.logo
+{
+    width: 5vw;
+    float: left;
+    height: 5vh;
+    display: flex;
+    justify-content: left center;
+    align-items: center;
+    padding: 15px 45px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+
+.logo:hover
+{
+    
+    background-color: palegreen;
+}
+
+
+
+.line
+{
+    height: 2px;
+    width: 6rem;
+    background: chartreuse;
+    display: block;
+    margin: 0.5rem 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 50%;
+}
+
+.about-info
+{
+    display: flex;
+    background-size: 30px;
+    float: left;
+    clear: left;
+    padding-left: 15px;
+}
+.bio_info
+{
+    width: 100%;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    background-color: azure;
+    border-left: 0.2rem solid red;    ;
+    /* padding-left: 40%; */
+    padding-right: 50%;
+}
+.section-title
+{
+    color: black;
+    align-items: center;
+    border-left: 20px;
+    text-underline-position: initial;
+    height: 100%;
+    border-radius: 5px;
+    
+}
+.section-title h2
+{
+margin-left: 48%;
+}
+.section-title p{
+    margin-left: 42%;
+
+}
+.container
+{
+    
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bio-image
+{
+    display:flex;
+    width:80%;
+    height: 40vh; 
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 15%;
+}
+.bio-image img{
+    height: inherit;
+    object-fit: cover;
+    width: inherit;
+}
+.my_info
+{
+    padding-right: 800px;
+    align-items: center;
+}
+
+.awards
+{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    padding-block: 2rem;
+
+}
+.line1
+{
+    height: 3px;
+    width: 7rem;
+    background: chartreuse;
+    display: block;
+    margin: 0.5rem 0;
+}
+.TECHNICAL
+{
+    background-color: black;
+    color: white;
+    height: 70vh;
+    width: 100vw;
+}
+#progressHtml
+{
+    overflow: hidden;
+    height: 25px;
+    background:white;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+}
+#DoneHtml
+{
+    height: 100%;
+    color: white;
+    width: 0;
+    text-align: center;
+    background: palegreen;
+    transition: all 3s ease;
+}
+#progressCss
+{
+    overflow: hidden;
+    height: 25px;
+    background:white;
+    border-radius: 6px;
+    margin-bottom: 0.6rem;
+}
+#DoneCss
+{
+
+
+
+    height: 100%;
+    color: white;
+    width: 0;
+    text-align: center;
+    background: palegreen;
+    transition: all 3s ease;
+}
+#progressBootstrap
+{
+    height: 25px;
+    background:white;
+    border-radius: 6px;
+    margin-bottom: 0.6rem;
+}
+#DoneBootstrap
+{
+height: 100%;
+color: white;
+width: 0;
+text-align: center;
+background: palegreen;
+transition: all 3s ease;
+}
+#progressSass
+{
+    overflow: hidden;
+    height: 25px;
+    background:white;
+    border-radius: 6px;
+    margin-bottom: 0.6rem; 
+}
+#DoneSass
+{
+
+    height: 100%;
+    color: white;
+    width: 0;
+    text-align: center;
+    background: palegreen;
+    transition: all 3s ease;
+}
+#progressJavascript
+{
+    overflow: hidden;
+    height: 25px;
+    background:white;
+    border-radius: 6px;
+    margin-bottom: 0.6rem;
+}
+#DoneJavascript
+{
+
+    height: 100%;
+    color: white;
+    width: 0;
+    text-align: center;
+    background: palegreen;
+    transition: all 3s ease;
+}
+#progressReact
+{
+    overflow: hidden;
+    height: 25px;
+    background: white;
+    border-radius: 6px;
+    margin-bottom: 0.6rem;
+}
+#DoneReact
+
+{
+    height: 100%;
+    color: white;
+    width: 0;
+    text-align: center;
+    background: palegreen;
+    transition: all 3s ease;
+
+}
+.TESTIMONIALS1
+{
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5rem;
+}
+.TESTIMONIALS1 ul
+{
+    list-style: none;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+.TESTIMONIALS1 P
+{
+    border: 1px solid #ccc;
+   border-radius: 5px;
+   padding: 0.5rem;
+}
+.TESTIMONIALS1 img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+.rk
+{
+    background-color:palegreen;
+    display: grid;
+    width: 100vw;
+    height: 100%;
+    grid-template-columns: repeat(3,0.99fr);
+    place-items: center;
+    padding-block: 2rem;
+    overflow: hidden;
+}
+.counter {  
+    font-size: 60px;  
+    margin-top: 10px;  
+   }  
+ .twitter
+ {
+       
+        display: flex;  
+        flex-direction: column;  
+        justify-content: center;  
+        text-align: center;  
+        margin: 30px 50px;  
+       
+    
+}
+    
+ 
+ .youtube
+ {
+    display: flex;  
+    flex-direction: column;  
+    justify-content: center;  
+    text-align: center;  
+    margin: 30px 50px;
+    
+}
+ 
+ .fb{
+         display: flex;  
+        flex-direction: column;  
+        justify-content: center;  
+        text-align: center;  
+        margin: 30px 50px;
+    
+}
+.footer1
+{
+    height: auto;
+    background-color: black;
+    color: white;
+}
+.div1
+{
+    padding: 40px 0px;
+    margin: auto;
+    width: 80%;
+}
+.div2
+{
+    display: flex;
+}
+.div3
+{
+    width:33.3%;
+}
+.line2
+{
+    background-color: chartreuse;
+    width: 70px;
+    height: 1px;
+    margin-top: 5px;
+    margin-left: 8px;
+    margin-bottom: 20px;
+}
+.div3 pre{
+    margin-top: 9px;
+    color: plum;
+    margin-left: 30px;
+    font-size: 15px;
+}
+.tag
+{
+    padding: 10px;
+
+}
+.tag a{
+    text-decoration: none;
+    color: darkgrey;
+    transition: 1s;
+}
+.tag a:hover
+{
+    color: palegreen;
+    padding: 10px;
+}
+.div3 h1{
+    font-size: 20px;
+    padding: 5px;
+}
+.icon
+{
+    margin-bottom: 30px;
+}
+.icon a{
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: white;
+    margin: 5px;
+    background-color: black;
+    transition: 1s;
+}
+.icon a:hover{
+    background-color: palegreen;
+}
+.div3 h1{
+    padding: 2px;
+}

@@ -1,0 +1,79 @@
+.abc
+{
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+
+    
+}
+.footer1
+{
+    height: auto;
+    background-color: black;
+    color: white;
+}
+.div1
+{
+    padding: 40px 0px;
+    margin: auto;
+    width: 80%;
+}
+.div2
+{
+    display: flex;
+}
+.div3
+{
+    width:33.3%;
+}
+.line2
+{
+    background-color: chartreuse;
+    width: 70px;
+    height: 1px;
+    margin-top: 5px;
+    margin-left: 8px;
+    margin-bottom: 20px;
+}
+.div3 pre{
+    margin-top: 9px;
+    color: plum;
+    margin-left: 30px;
+    font-size: 15px;
+}
+.tag
+{
+    padding: 10px;
+
+}
+.tag a{
+    text-decoration: none;
+    color: darkgrey;
+    transition: 1s;
+}
+.tag a:hover
+{
+    color: palegreen;
+    padding: 10px;
+}
+.div3 h1{
+    font-size: 20px;
+    padding: 5px;
+}
+.icon
+{
+    margin-bottom: 30px;
+}
+.icon a{
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: white;
+    margin: 5px;
+    background-color: black;
+    transition: 1s;
+}
+.icon a:hover{
+    background-color: palegreen;
+}
+.div3 h1{
+    padding: 2px;
+}
